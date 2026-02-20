@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 # HAR Sanitizer
 
 Privacy-focused local HAR file sanitizer with multiple security profiles.
