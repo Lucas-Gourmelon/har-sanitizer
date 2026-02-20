@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 # HAR Sanitizer
 
 Privacy-focused local HAR file sanitizer with multiple security profiles.
@@ -96,14 +98,14 @@ cd har-sanitizer
 ## Usage
 
 ```bash
-python sanitize_har.py input.har output.har --profile strict
+python sanitizer_har.py input.har output.har --profile strict
 ```
 
 Examples:
 
 ```bash
-python sanitize_har.py file.har clean_ultra.har --profile ultra
-python sanitize_har.py file.har clean_debug.har --profile debug
+python sanitizer_har.py file.har clean_ultra.har --profile ultra
+python sanitizer_har.py file.har clean_debug.har --profile debug
 ```
 
 If no profile is specified, `strict` is used by default.
